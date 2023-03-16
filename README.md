@@ -2,7 +2,6 @@
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Jheimys/Electronic_battery/blob/master/LICENCE)
 
-![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
 ## Bem vindo! 👋
 
