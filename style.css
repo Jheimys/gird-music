@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(180deg, #154580 0%, #041833 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container{
+    position: absolute;
+    border-radius: 10px;
+    background: #C4C4C433;
+    padding: 1rem;
+  }
+  
+  img {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    margin: auto;
+  }
+  
+  h1 {
+    font-family: Open Sans, "sans-serif";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+  }
+  
+  .grid-item {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    background: #041833;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .item3 {
+    background: #84EEC1;
+    color: #041833;
+  }
+  
+  .grid-container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas:
+      "Funk Pop  Hip"
+      "Rock Rock Hip "
+      "Reggaeton Reggaeton Rap"; 
+  }
+  
+  .item1 {
+    grid-area:Funk;
+   
+  }
+  
+  .item2 {
+    grid-area:Pop;
+   
+  }
+  
+  .item3 {
+    grid-area:Hip;
+   
+  }
+  
+  .item4 {
+    grid-area:Rock;
+  }
+  
+  .item5 {
+    grid-area:Reggaeton;
+  }
+  
+  .item6 {
+    grid-area:Rap;
+  }
